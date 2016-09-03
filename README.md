@@ -1,0 +1,2 @@
+# platzigram
+Proyecto JavaScript
