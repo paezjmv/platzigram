@@ -1,0 +1,31 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "Comparte tus fotos estudiando en Platzi con el resto de la comunidad",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paezjm86/platzigram.git"
+  },
+  "keywords": [
+    "platzi",
+    "javascript",
+    "curso-definitivo",
+    "platzigram"
+  ],
+  "author": "platzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paezjm86/platzigram/issues"
+  },
+  "homepage": "https://github.com/Paezjm86/platzigram#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "materialize-css": "^0.97.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  }
+}
