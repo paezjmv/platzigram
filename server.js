@@ -2,7 +2,11 @@ var express = require('express');
 
 var app = express();
 
+//Genera el motor de pug para visualizar el html mas rapidamente
 app.set('view engine', 'pug');
+
+//Permite generar los archivos staticos para el usurio
+app.use(express.static('public'));
 
 app.get('/', function (req, res){
    res.render('index')
