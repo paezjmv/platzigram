@@ -13,9 +13,9 @@ module.exports = {
    'username': 'Username',
    'fullname': 'Fullname',
    'password': 'Password',
-   'signup.call-to-action': 'Signup',
+   'signup.call-to-action': ' Signup',
    'signup.have-account': 'Already have an account?',
-   'signin': 'Signin',
-   'signin.not-have-account': 'Don\'t have an account',
+   'signin': ' Signin',
+   'signin.not-have-account': 'Don\'t have an account?',
    'language': 'Language'
 }

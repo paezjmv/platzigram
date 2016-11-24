@@ -10,10 +10,10 @@ module.exports = {
    'username': 'Nombre de usuario',
    'fullname': 'Nombre completo',
    'password': 'Contraseña',
-   'signup.call-to-action': 'Registrate',
+   'signup.call-to-action': ' Registrate',
    'signup.have-account': '¿Tienes una cuenta?',
-   'signin': 'Entrar',
-   'signin.not-have-account': '¿No tienes una cuenta',
+   'signin': ' Entrar',
+   'signin.not-have-account': '¿No tienes una cuenta?',
    'language': 'Idioma'
 }
 
