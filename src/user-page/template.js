@@ -23,8 +23,7 @@ export default function userPageTemplate (user) {
                      <img src="${picture.src}" class="picture" />
                      <div class="likes"><i class="fa fa-heart"></i> ${picture.likes}</div>
                   </div>
-               </div>
-               `
+               </div>`
             })}
          </div>
       </div>
