@@ -19,6 +19,11 @@ body {
    font-family: 'Montserrat';
 }
 
+.btn.btn-flat {
+  background-color: transparent;
+  box-shadow: none;
+}
+
 .landing {
    margin: 30px auto;
 }
@@ -30,6 +35,13 @@ body {
 .site-footer {
    text-transform: uppercase;
    font-size: 12px;
+}
+
+.loader-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .login-box,
@@ -82,6 +94,7 @@ body {
 }
 
 $avatar-size: 48px;
+$avatar-size-big: 150px;
 
 .avatar {
    width: $avatar-size;
@@ -108,8 +121,9 @@ $avatar-size: 48px;
    margin-left: 12px;
 }
 
-.card  i {
-   font-size: 30px;
+.card .heart,
+.card .heart-o, {
+  font-size: 30px;
 }
 
 .fa-heart-o {
@@ -145,6 +159,7 @@ $avatar-size: 48px;
       overflow: hidden;
       margin: 10px;
 
+
       input {
          position: absolute;
          top: 0;
@@ -157,12 +172,12 @@ $avatar-size: 48px;
          opacity: 0;
          filter: alpha(opacity=0);
       }
+
    }
 }
 
 .user-page {
    margin-top: 30px;
-
 
    .heading {
       margin-bottom: 20px;
@@ -204,7 +219,8 @@ $avatar-size: 48px;
          justify-content: center;
          align-items: center;
          color: $platzigram-red;
-         font-size: none;
+         font-size: 34px;
+         display: none
       }
 
       .fa-heart {

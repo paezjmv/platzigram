@@ -6454,6 +6454,10 @@ body {
   color: #125688;
   font-family: 'Montserrat'; }
 
+.btn.btn-flat, .btn-flat.btn-large {
+  background-color: transparent;
+  box-shadow: none; }
+
 .landing {
   margin: 30px auto; }
 
@@ -6463,6 +6467,12 @@ body {
 .site-footer {
   text-transform: uppercase;
   font-size: 12px; }
+
+.loader-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .login-box,
 .signup-box {
@@ -6524,7 +6534,8 @@ body {
   line-height: 30px;
   margin-left: 12px; }
 
-.card i {
+.card .heart,
+.card .heart-o {
   font-size: 30px; }
 
 .fa-heart-o {
@@ -6596,7 +6607,8 @@ body {
       justify-content: center;
       align-items: center;
       color: #f44336;
-      font-size: none; }
+      font-size: 34px;
+      display: none; }
     .user-page .picture-container .fa-heart {
       margin-right: 8px;
       display: inline-block; }
