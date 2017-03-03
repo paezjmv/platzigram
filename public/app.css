@@ -6542,9 +6542,7 @@ body {
   color: #125688; }
 
 .fa-heart {
-  color: #f44336; }
-
-.heart {
+  color: #f44336;
   display: none; }
 
 .card.liked .heart {
@@ -6636,3 +6634,16 @@ body {
   display: block;
   transition: all .5s ease;
   opacity: 1; }
+
+#modalCamara .camara-picture {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative; }
+
+#modalCamara img {
+  max-height: 100%;
+  max-width: 90%; }
+
+#modalCamara button {
+  float: none; }
